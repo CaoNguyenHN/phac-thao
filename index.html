@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FloorPlan Lite</title>
+    <!-- Load local Tailwind CSS file -->
+    <link rel="stylesheet" href="./tailwindcss.min.css">
+    <!-- Load local React and ReactDOM libraries -->
+    <script src="./1react.production.min.js"></script>
+    <script src="./1react-dom.production.min.js"></script>
+    <script src="./jspdf.umd.min.js"></script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-900 text-white sketch-lite">
+    <div id="root"></div>
+    <!-- Load the compiled application bundle -->
+    <script src="bundle.part1.js"></script>
+    <script src="bundle.part2.js"></script>
+  </body>
+</html>
